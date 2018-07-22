@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(30, 31, 37);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(21, 17, 26);
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    font-family: 'Patua One', cursive;
+    margin: auto 3em;
+    list-style-type: none;    
+    position: relative;
+    padding: 0.400em;
+    border-radius: 11px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.4s linear;
+}
+.menu li:hover{
+    
+    background-color: rgb(56, 85, 99);
+    transition:all 0.9s;
+    transform: scale(1.2)
+}
+.menu li:hover:after{
+    position: absolute;
+    content: "\00bb";
+    right: 9px;
+}
+.menu li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 13px;
+    transition: 0.9s;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: white;
+    margin: 13px;
+}
+.input{
+    margin-left: 2.5em;
+    margin-right: 2em;
+}
+.sign-up{
+    font-family: 'Patua One', cursive;
+    margin-top: 14%;
+    
+    padding: 0.400em;
+    border-radius: 11px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transition:0.4s linear;
+}
+.sign-up:hover {
+    transform: scale(1.2);
+    background-color: rgb(75, 76, 89); 
+}
+.u12{
+    -webkit-animation-duration: 2s;
+    -webkit-animation: u12 5s ;
+    position: relative;
+    width: 45%;
+    /* transform: translate(50%, 0) ; */
+    /* transition:ease 5s; */
+    
+}
+@keyframes u12{
+    100% {left: 0;}
+    0% {left: 50%;}
+    
+}
+.text, .text2{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: 80px auto;
+}
+#bar{
+    visibility: hidden ;
+    position: absolute;
+    top: 35%;
+    right: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 32%;
+    
+}
+.bar2 {
+    width: 50%;
+    display: flex;
+    margin:100px auto;
+}
+.vids h1, p, .dual, .display{
+    
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+}
+#mainCamera, #frontCamera{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.display-pic{
+    display: flex;
+    margin: auto;
+}
+.colors{
+    display: flex;
+    margin:150px auto;
+    justify-content: center;
+}
+.color1:hover, .color2:hover, .color3:hover{
+    transform: scale(1.1);
+    transition: 2s ;
+}
+h1{
+    background-image: linear-gradient(to right, #4cd1ff, #9485ff);-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70;
+    font-family: 'Chela One', cursive;
+    font-family: 'Anton', sans-serif;
+}
+p{
+    font-family: 'Chela One', cursive;
+    font-size: 25;
+}
+.vive img{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+.vive h3{
+   
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    justify-content: center; 
+}
+
+
+    
+
+
+
+
+
+
